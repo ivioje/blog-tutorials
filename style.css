@@ -1,0 +1,48 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  background-image: url(kel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 6vw;
+  color: #2d3748;
+}
+
+#content {
+  width: 80%;
+  height: 80vh;
+  margin:8vh;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+
+#showquotes {
+  font-size: 30px;
+}
+
+#generate {
+  margin-top: 10vh;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+#generate:hover {
+  background: #bbb;
+}
