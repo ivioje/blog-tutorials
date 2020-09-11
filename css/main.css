@@ -14,11 +14,11 @@ search {
 }
 .minor-nav {
   display: block;
-  margin-top: 15vh;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
 }
 .letter-sub {
   color:  #020409;
-  margin-right: 5%;
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
@@ -26,58 +26,25 @@ search {
 }
 .letter-sub:hover {
   text-decoration: none;
-background: #020409;
+  background: #020409;
   border-radius: 5px;
   color: #DDDDDD;
   transition: 0.3s ease-in;
 }
-
-#search {
-  width: 25%;
-  height: 50px;
-  border: 0;
-  font-size: 18px;
-  background-color: #020409;
-  color: white;
-  border-radius: 30px;
-  box-shadow: 0 0 5px 0 #020409;
-}
-#search:hover {
-  box-shadow: 0 0 20px 0 #020409;
-  width: 25.5%;
-    transition: .3s ease;
-}
-
 .fa-envelope {
   color: #1A202C;
-  font-size: 25px;
+  font-size: 35px;
+  margin-right: 1%;
 }
-
-.fa-search {
-  font-size: 20px;
-  color: #FFF0F0;
-}
-.fa-search:hover {
-  opacity: .8;
-}
-.fa-rss {
-  margin-left: 3%;
-  font-size: 30px;
-  color: #1A202C;
-  font-weight: bold;
+.swirl, .edge {
+  animation: flipInX;
+  animation-duration: 3s;
 }
 
 @media screen and (max-width: 800px) {
-  #search {
-    width: 100px;
-  }
   .minor-nav {
     margin-top: 1vh;
   }
-  .fa-rss {
-    display: none;
-  }
-}
 
 @media screen and (max-width: 600px) {
   .minor-nav {
