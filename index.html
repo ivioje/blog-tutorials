@@ -10,19 +10,20 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="index.html" style="font-family: Sofia, cursive;font-size: 24px;"><i class="fa fa-codiepie"></i>CodieBites</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+        <div class="container"><a class="navbar-brand" href="index.html" style="font-family: Sofia, cursive;font-size: 24px;color: rgb(255,255,255);"><i class="fa fa-codiepie"></i>CodieBites</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">&nbsp;BLOG POST</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">&nbsp;BLOG</a></li>
                     <li class="nav-item">
                         <div class="nav-item dropdown"><a class="dropdown-toggle categories" data-toggle="dropdown" aria-expanded="false" href="#">CATEGORIES&nbsp;</a>
                             <div class="dropdown-menu"><a class="dropdown-item" href="#">HTML</a><a class="dropdown-item" href="#">CSS</a><a class="dropdown-item" href="#">JavaScript</a><a class="dropdown-item" href="#">React</a><a class="dropdown-item" href="#">Design</a><a class="dropdown-item"
@@ -45,89 +46,194 @@
             </div>
         </div>
     </header>
-    <h1 class="headie">Latest Posts</h1>
-    <hr>
+    <div>
+        <h1 class="main-head u-popular">Latest Articles</h1>
+        <hr>
+    </div>
     <div></div>
+    <div></div>
+    <!-- Start: 1 Row 2 Columns -->
+    <div class="popular"></div>
+    <!-- End: 1 Row 2 Columns -->
+    <div class="sub-container">
+        <div></div>
+    </div>
+    <!-- Start: 1 Row 3 Columns -->
+    <div data-aos="fade-up" data-aos-duration="900" class="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="950" data-aos-once="true">
+                    <div class="card">
+                        <div class="card-body" style="box-shadow: 2px 2px 6px 1px rgb(177,178,179);"><img class="rounded img-fluid border" src="assets/img/image6%201.png" width="100%" height="100%">
+                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;"><a href="#">Create a Responsive Website With HTML and CSS</a></h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
+                            <p class="card-text" style="font-size: 16px;">If your'e new to web development, this will be a good project to start with</p>
+                            <div class="unit-tags"><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">html</a></button>
+                                <button
+                                    class="btn border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">css</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="950" data-aos-once="true">
+                    <div class="card">
+                        <div class="card-body" style="box-shadow: 2px 2px 6px 1px rgb(177,178,179);"><img class="rounded img-fluid border" src="assets/img/home-bg.jpg" width="100%" height="100%">
+                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;"><a href="#">Make Your JavaScript Code Clean</a></h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
+                            <p class="card-text" style="font-size: 16px;">Nothing is more satisfying than writing clean code.</p>
+                            <div class="unit-tags"><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">javascript</a></button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="950" data-aos-once="true">
+                    <div class="card">
+                        <div class="card-body" style="box-shadow: 2px 2px 5px 1px rgb(177,178,179);"><img class="rounded img-fluid border" src="assets/img/contribution-complex-like-puzzle-pictured-as-word-contribution-puzzle-pieces-to-show-contribution-can-be-difficult-164222204%201.png" width="100%" height="100%">
+                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;"><a href="#">My Open Source Contributions</a></h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
+                            <p class="card-text" style="font-size: 16px;">As a developer, contributing to open source projects is a crucial part of your journey. See each contribution as a piece of puzzle</p>
+                            <div class="unit-tags"><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 58px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">git</a></button>
+                                <button
+                                    class="btn text-uppercase text-center border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">github</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: 1 Row 3 Columns -->
+    <!-- Start: 1 Row 3 Columns -->
+    <div data-aos="fade-up" data-aos-duration="900" id="sub-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
+                    <div class="card">
+                        <div class="card-body" style="box-shadow: 2px 2px 6px 1px rgb(177,178,179);"><img class="rounded img-fluid border" src="assets/img/nick-fewings-zF_pTLx_Dkg-unsplash-1%201.png" width="100%" height="100%">
+                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;"><a href="#">ES6 Arrow Functions</a></h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
+                            <p class="card-text" style="font-size: 16px;">With the new ES6 arrow functions, writing function syntax becomes easier.</p>
+                            <div class="unit-tags"><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">javascript</a></button>
+                                <button
+                                    class="btn border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">ES6</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="950" data-aos-once="true">
+                    <div class="card">
+                        <div class="card-body" style="box-shadow: 2px 2px 6px 1px rgb(177,178,179);"><img class="rounded img-fluid border" src="assets/img/photo-1504308805006-0f7a5f1f0f71%201.png" width="100%" height="100%">
+                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;"><a href="#">JavaScript Loops</a></h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
+                            <p class="card-text" style="font-size: 16px;">Discover how to write loops in JavaScript and master ES6 for loops</p>
+                            <div class="unit-tags"><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">javascript</a></button>
+                                <button
+                                    class="btn border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">ES6</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="950" data-aos-once="true">
+                    <div class="card">
+                        <div class="card-body" style="box-shadow: 2px 2px 6px 1px rgb(177,178,179);"><img class="rounded img-fluid border" src="assets/img/React-Components%201.png" width="100%" height="100%">
+                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;"><a href="#">How to Create Components In React</a></h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
+                            <p class="card-text" style="font-size: 16px;">Know your React Components</p>
+                            <div class="unit-tags"><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">javascript</a></button>
+                                <button
+                                    class="btn border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;width: 107px;">react</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: 1 Row 3 Columns -->
+    <div class="sub-container">
+        <h1 class="u-popular">Popular Articles</h1>
+    </div>
+    <hr>
     <!-- Start: 1 Row 3 Columns -->
     <div data-aos="fade-up" data-aos-duration="900">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
                     <div class="card">
-                        <div class="card-body"><img class="rounded img-fluid border" src="assets/img/nick-fewings-zF_pTLx_Dkg-unsplash-1%201.png" width="100%" height="100%">
-                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;">ES6 Arrow Functions</h4>
+                        <div class="card-body" style="box-shadow: 2px 2px 6px 1px rgb(177,178,179);">
+                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;"><a href="#">ES6 Arrow Functions</a></h4>
                             <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
-                            <p class="card-text" style="font-size: 16px;">With the new ES6 arrow functions, writing function syntax becomes easier.</p>
+                            <div class="unit-tags"><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">javascript</a></button>
+                                <button
+                                    class="btn border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">ES6</a></button>
+                            </div>
                         </div>
-                    </div><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">javascript</a></button>
-                    <button
-                        class="btn border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">ES6</a></button><button class="btn border rounded tags" type="button" style="width: 125px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">fundamentals</a></button></div>
-                <div
-                    class="col-md-4">
-                    <div class="card">
-                        <div class="card-body"><img class="rounded img-fluid border" src="assets/img/photo-1504308805006-0f7a5f1f0f71%201.png" width="100%" height="100%">
-                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;">JavaScript Loops</h4>
-                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
-                            <p class="card-text" style="font-size: 16px;">Discover how to write loops in JavaScript and master ES6 for of loops</p>
-                        </div>
-                    </div><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">javascript</a></button>
-                    <button
-                        class="btn border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">ES6</a></button><button class="btn border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">loops</a></button></div>
-            <div
-                class="col-md-4">
-                <div class="card">
-                    <div class="card-body"><img class="rounded img-fluid border" src="assets/img/React-Components%201.png" width="100%" height="100%">
-                        <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;">How to Create Components in React</h4>
-                        <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
-                        <p class="card-text" style="font-size: 16px;">Know your React Components</p>
                     </div>
-                </div><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">javascript</a></button>
-                <button
-                    class="btn border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">React</a></button><button class="btn border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">how to</a></button></div>
-    </div>
-    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="950" data-aos-once="true">
+                    <div class="card">
+                        <div class="card-body" style="box-shadow: 2px 2px 6px 1px rgb(177,178,179);">
+                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;"><a href="#">JavaScript Loops</a></h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
+                            <div class="unit-tags"><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">javascript</a></button>
+                                <button
+                                    class="btn border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">ES6</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="950" data-aos-once="true">
+                    <div class="card">
+                        <div class="card-body" style="box-shadow: 2px 2px 6px 1px rgb(177,178,179);">
+                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;"><a href="#">How to Create React Components</a></h4>
+                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
+                            <div class="unit-tags"><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;font-size: 7px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;">javascript</a></button>
+                                <button
+                                    class="btn border rounded tags" type="button" style="width: 94px;height: 28px;padding: 2px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 9px;font-family: Lora, serif;text-align: center;width: 107px;">react</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- End: 1 Row 3 Columns -->
-    <!-- Start: 1 Row 3 Columns -->
-    <div data-aos="fade-up" data-aos-duration="900">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body"><img class="rounded img-fluid border" src="assets/img/image6%201.png" width="100%" height="100%">
-                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;">Create a Responsive Website With HTML and CSS</h4>
-                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
-                            <p class="card-text" style="font-size: 16px;">With the new ES6 arrow functions, writing function syntax becomes easier.</p>
-                        </div>
-                    </div><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">javascript</a></button>
-                    <button
-                        class="btn border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">ES6</a></button><button class="btn border rounded tags" type="button" style="width: 125px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">fundamentals</a></button></div>
-                <div
-                    class="col-md-4">
-                    <div class="card">
-                        <div class="card-body"><img class="rounded img-fluid border" src="assets/img/home-bg.jpg" width="100%" height="100%">
-                            <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;">ES6 Arrow Functions</h4>
-                            <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
-                            <p class="card-text" style="font-size: 16px;">With the new ES6 arrow functions, writing function syntax becomes easier.</p>
-                        </div>
-                    </div><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">javascript</a></button>
-                    <button
-                        class="btn border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">ES6</a></button><button class="btn border rounded tags" type="button" style="width: 125px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">fundamentals</a></button></div>
-            <div
-                class="col-md-4">
-                <div class="card">
-                    <div class="card-body"><img class="rounded img-fluid border" src="assets/img/home-bg.jpg" width="100%" height="100%">
-                        <h4 class="card-title" style="padding: 5px;color: rgb(55,55,55);font-size: 23px;text-align: center;">ES6 Arrow Functions</h4>
-                        <h6 class="text-muted card-subtitle mb-2" style="font-size: 13px;text-align: center;border-style: none;">September 25, 2020</h6>
-                        <p class="card-text" style="font-size: 16px;">With the new ES6 arrow functions, writing function syntax becomes easier.</p>
-                    </div>
-                </div><button class="btn text-uppercase text-center border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">javascript</a></button>
-                <button
-                    class="btn border rounded tags" type="button" style="width: 112px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">ES6</a></button><button class="btn border rounded tags" type="button" style="width: 125px;height: 34px;padding: 6px;margin: 5px;"><a href="#" style="opacity: 1;color: rgb(51,51,51);font-size: 11px;font-family: Lora, serif;text-align: center;">fundamentals</a></button></div>
+    <!-- Start: Newsletter Subscription Form -->
+    <div data-aos="fade-up" data-aos-duration="900" class="newsletter-subscribe">
+        <div class="container border rounded letter" style="box-shadow: 2px 2px 6px 1px rgb(141,145,145);">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">Join Newsletter&nbsp;<i class="fa fa-envelope" data-aos="slide-down" style="color: rgb(44,45,45);"></i></h2>
+                <p class="text-center text-dark">Subscribe and you will receive weekly newsletters. No spamming. Unsubscribe Anytime.</p>
+            </div>
+            <!-- End: Intro -->
+            <form class="form-inline enter" method="post">
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
+            </form>
+        </div>
     </div>
+    <!-- End: Newsletter Subscription Form -->
+    <!-- Start: Footer Basic -->
+    <div class="footer-basic">
+        <footer class="foot">
+            <!-- Start: Social Icons -->
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-email"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <!-- End: Social Icons -->
+            <!-- Start: Links -->
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Blog</a></li>
+                <li class="list-inline-item"><a href="#">Newsletter</a></li>
+                <li class="list-inline-item"><a href="#">Categories</a></li>
+            </ul>
+            <!-- End: Links -->
+            <!-- Start: Copyright -->
+            <p class="copyright">CodieBites © 2020</p>
+            <!-- End: Copyright -->
+        </footer>
     </div>
-    </div>
-    <!-- End: 1 Row 3 Columns -->
+    <!-- End: Footer Basic -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
