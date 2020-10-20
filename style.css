@@ -34,8 +34,7 @@ h1 {
   font-size: 28px;
 }
 
-#generate,
-#change {
+#generate {
   width: 150px;
   height: 50px;
   border-radius: 50px;
@@ -45,8 +44,7 @@ h1 {
   margin: 50px;
 }
 
-#generate:hover,
-#change:hover {
+#generate:hover {
   background: rgb(2, 9, 19);
   color: white;
   box-shadow: 0px 5px 4px 5px #2d3748;
@@ -74,16 +72,4 @@ h1 {
   #showquotes {
     font-size: 20px;
   }
-
-  .btns {
-    display: flex;
-  }
-}
-
-#generate {
-  float: right;
-}
-#change {
-  width: 250px;
-  float: left;
 }
